@@ -91,7 +91,8 @@ pkg autoclean & pkg clean
 pkg i -y zsh
 chsh -s
 ```
-Then type in 'zsh' for the input, then press ENTER
+Then type in 'zsh' for the input, then press ENTER.<br>
+Exit and open the app again to use ZSH.
 
 - Add Extra Key Rows
 ```sh
