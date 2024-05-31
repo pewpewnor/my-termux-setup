@@ -41,7 +41,7 @@ Sauce: https://wiki.termux.com/wiki/PRoot
 
 ### Basics
 ```
-pkg i -y netcat-openbsd curl wget grep htop man nano vim zip unzip tar git 
+pkg i -y netcat-openbsd socat curl wget grep htop man nano vim zip unzip tar git 
 ```
 
 ### Programming languages
@@ -86,7 +86,13 @@ pkg autoclean & pkg clean
 
 ## Customization
 
-### Add Extra Key Rows
+- zsh
+```
+pkg i -y zsh
+chsh -s $(which zsh)
+```
+
+- Add Extra Key Rows
 ```sh
 cd .termux
 nano termux.properties
