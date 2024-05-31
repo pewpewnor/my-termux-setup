@@ -11,17 +11,17 @@ pkg update && pkg upgrade
 
 ## Setup
 ```sh
-termux-change-repo
-```
-Pick `Mirror Group` > `All mirrors in the world`<br>
-Sauce: https://github.com/termux/termux-packages/wiki/Mirrors 
-
-```sh
 termux-setup-storage
 ```
 You will then be prompted to "Allow Termux access photos, media and files on your device", which you should allow.<br>
 This will create a folder called `storage` inside of your home directory which will grant you access to your Android's files.<br>
 Sauce: https://wiki.termux.com/wiki/Internal_and_external_storage
+
+```sh
+termux-change-repo
+```
+Pick `Mirror Group` > `All mirrors in the world`<br>
+Sauce: https://github.com/termux/termux-packages/wiki/Mirrors
 
 ## Install Important Stuff
 
