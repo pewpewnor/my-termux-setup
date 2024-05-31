@@ -89,8 +89,9 @@ pkg autoclean & pkg clean
 - zsh
 ```
 pkg i -y zsh
-chsh -s $(which zsh)
+chsh -s
 ```
+Then type in 'zsh' for the input, then press ENTER
 
 - Add Extra Key Rows
 ```sh
