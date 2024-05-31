@@ -39,9 +39,9 @@ Sauce: https://wiki.termux.com/wiki/PRoot
 
 ## Install Packages (optional)
 
-### Basics
+### Common
 ```
-pkg i -y netcat-openbsd socat curl wget grep htop man nano vim zip unzip tar git 
+pkg i -y netcat-openbsd socat curl wget grep htop man nano vim zip unzip tar git
 ```
 
 ### Programming languages
@@ -50,19 +50,19 @@ pkg i -y clang python nodejs golang
 ```
 You can also install `nodejs-lts` for lts version
 
-- required packages for python development
+- Required packages for python development
 ```
 pkg i -y clang libffi openssl
 ```
 
-- pip packages
+- Pip packages
 ```
 pip install --upgrade pip setuptools
 pip install requests
 pip install httpie
 ```
 
-- php and composer
+- PHP and composer
 ```sh
 pkg i -y php
 curl -sS https://getcomposer.org/installer | php -- --install-dir=/data/data/com.termux/files/usr/bin --filename=composer
@@ -95,7 +95,7 @@ chsh -s
 Then type in 'zsh' for the input, then press ENTER.<br>
 Exit and open the app again to use ZSH.
 
-- Add Extra Key Rows
+- Add extra key rows
 ```sh
 cd .termux
 nano termux.properties
