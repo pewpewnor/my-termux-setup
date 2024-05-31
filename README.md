@@ -87,6 +87,7 @@ pkg autoclean & pkg clean
 ## Customization
 
 - zsh
+Use bash instead since ZSH doesn't show path in the prompt by default, trust me.
 ```
 pkg i -y zsh
 chsh -s
