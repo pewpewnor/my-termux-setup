@@ -103,8 +103,8 @@ Copy paste the following lines to the file.
 Note: you cannot add '\\'
 ```sh
 extra-keys = [ \
- ['ESC',':','ENTER','HOME','UP','END','DEL'], \
- ['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','BKSP'] \
+  ['ESC',':','ENTER','HOME','UP','END','DEL'], \
+  ['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','BKSP'] \
 ]
 ```
 Then reload termux settings:
