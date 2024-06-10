@@ -100,9 +100,10 @@ cd .termux
 nano termux.properties
 ```
 Copy paste the following lines to the file.
+Note: you cannot add '\'
 ```sh
 extra-keys = [ \
- ['ESC','|','/','HOME','UP','END','DEL'], \
+ ['ESC','|',':','HOME','UP','END','DEL'], \
  ['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','BKSP'] \
 ]
 ```
