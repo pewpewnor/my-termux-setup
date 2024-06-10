@@ -103,7 +103,7 @@ Copy paste the following lines to the file.
 Note: you cannot add '\\'
 ```sh
 extra-keys = [ \
- ['ESC','ENTER',':','HOME','UP','END','DEL'], \
+ ['ESC',':','ENTER','HOME','UP','END','DEL'], \
  ['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','BKSP'] \
 ]
 ```
