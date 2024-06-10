@@ -41,7 +41,7 @@ Sauce: https://wiki.termux.com/wiki/PRoot
 
 ### Common
 ```
-pkg i -y netcat-openbsd socat curl wget grep htop man nano vim zip unzip tar git
+pkg i -y netcat-openbsd socat curl wget grep htop man nano vim zip unzip tar git tree
 ```
 
 ### Programming languages
@@ -102,8 +102,8 @@ nano termux.properties
 Copy paste the following lines to the file.
 ```sh
 extra-keys = [ \
- ['ESC','|','/','HOME','UP','END','PGUP','DEL'], \
- ['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN','BKSP'] \
+ ['ESC','|','/','HOME','UP','END','DEL'], \
+ ['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','BKSP'] \
 ]
 ```
 Then reload termux settings:
