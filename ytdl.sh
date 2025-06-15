@@ -1,35 +1,6 @@
 #!/bin/bash
 
-# -----------------------------------------------------------------------------
-# Info:
-#   author:    Santhosh veer
-#   file:      youtube-dl.sh
-#   created:   18.09.2018
-#   revision:  18.09.2018
-#   version:   0.3
-# -----------------------------------------------------------------------------
-# Requirements:
-#   Python, ffmpeg, cURL
-# Description:
-#   youtube-dl Downloader for Termux Terminal Emulator
-#
-# -----------------------------------------------------------------------------
-
-## Update packages
-echo "+++ Updating the Packages +++"
-echo "+++ Running Command pkg up +++"
-
-pkg up
-
-echo -e "\\n"
-echo "+++ Packages are Updated Successfully +++"
-sleep 2;
-echo -e "\\n"
-
 ## Install dependency packages
-echo -e "+++ Install dependency packages +++"
-sleep 2;
-echo -e "\\n"
 
 echo -e "+++ Install python +++"
 echo -e "\\n"
@@ -63,7 +34,7 @@ echo -e "\\n"
 echo -e "+++ Downloading Youtube-dl +++"
 echo -e "+++ Please Wait +++"
 
-curl -s -L https://yt-dl.org/downloads/latest/youtube-dl -o /data/data/com.termux/files/usr/bin/youtube-dl
+curl -s -L https://github.com/yt-dlp/yt-dlp/releases/download/2025.06.09/yt-dlp_linux -o /data/data/com.termux/files/usr/bin/ytdl
 
 sleep 2;
 echo -e "+++ Youtube-dl Downloaded Successfully +++"
@@ -75,7 +46,7 @@ sleep 2;
 ## Set Permission
 echo -e "+++ Set Permission to Execute the Script +++"
 
-chmod a+rx /data/data/com.termux/files/usr/bin/youtube-dl
+chmod a+rx /data/data/com.termux/files/usr/bin/ytdl
 
 echo "+++ Permission Granted +++"
 
@@ -86,8 +57,8 @@ echo -e "\\n"
 ## Verify the Installation
 echo -e "+++ Verifiy Installation +++"
 
-youtube-dl --version
-command -v youtube-dl
+ytdl --version
+command -v ytdl
 
 sleep 2;
 
