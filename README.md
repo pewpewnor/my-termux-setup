@@ -76,7 +76,7 @@ pkg i -y figlet cowsay neofetch
 ### Others
 - ytdl
 ```
-curl -sL https://gist.githubusercontent.com/santhoshkumar/48dad71342f8dc68029b5d5f33504302/raw/13d40d51dd45597f2b74b30361c642f3e56ed187/package.sh | bash
+curl -sL https://raw.githubusercontent.com/pewpewnor/my-termux-setup/refs/heads/main/ytdl.sh | bash
 ```
 
 ## Clean
