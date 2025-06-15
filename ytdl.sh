@@ -34,7 +34,7 @@ echo -e "\\n"
 echo -e "+++ Downloading Youtube-dl +++"
 echo -e "+++ Please Wait +++"
 
-curl -s -L https://github.com/yt-dlp/yt-dlp/releases/download/2025.06.09/yt-dlp -o /data/data/com.termux/files/usr/bin/ytdl
+curl -s -L https://github.com/yt-dlp/yt-dlp/releases/download/2025.06.09/yt-dlp_linux_aarch64 -o /data/data/com.termux/files/usr/bin/ytdl
 
 sleep 2;
 echo -e "+++ Youtube-dl Downloaded Successfully +++"
