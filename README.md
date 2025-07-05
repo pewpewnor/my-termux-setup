@@ -1,15 +1,15 @@
-# My Termux Setup
-
-### How To Fix Unable To Update
-
-- Run `termux-change-repo` then select mirrors
-- Now `pkg update` should work
-
-### How to Transfer File Using Netcat
+## How to Transfer File Using Netcat
 
 - On phone: `nc -l -p 1234 > output.tar.gz`, where 1234 is the port
 - Look up your phone's ip address in the settings (make sure both devices are on the same wifi), let's say it's `192.168.0.1`
 - On pc / sender: `pv input.tar.gz | nc 192.168.0.1 1234`, you can also use `cat` instead of `pv`
+
+## How To Fix Unable To Update
+
+- Run `termux-change-repo` then select mirrors
+- Now `pkg update` should work
+
+# Termux Setup
 
 ## Download Termux
 You can download from F-droid: https://f-droid.org/packages/com.termux/
