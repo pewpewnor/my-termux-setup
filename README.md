@@ -8,7 +8,8 @@
 ### How to Transfer File Using Netcat
 
 - On phone: `nc -l -p 1234 > output.tar.gz`, where 1234 is the port
-- On pc / sender: `pv input.tar.gz | nc <phone's ip address e.g 192.168.0.1> 1234`, you can also use `cat` instead of `pv`
+- Look up your phone's ip address in the settings (make sure both devices are on the same wifi), let's say it's `192.168.0.1`
+- On pc / sender: `pv input.tar.gz | nc 192.168.0.1 1234`, you can also use `cat` instead of `pv`
 
 ## Download Termux
 You can download from F-droid: https://f-droid.org/packages/com.termux/
