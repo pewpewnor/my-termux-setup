@@ -1,4 +1,4 @@
-## How to Transfer File Using Netcat
+## How To Transfer File Using Netcat
 
 - On phone: `nc -l -p 1234 > output.tar.gz`, where 1234 is the port
 - Look up your phone's ip address in the settings (make sure both devices are on the same wifi), let's say it's `192.168.0.1`
