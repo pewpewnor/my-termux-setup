@@ -1,5 +1,15 @@
 # My Termux Setup
 
+### How To Fix Unable To Update
+
+- Run `termux-change-repo` then select mirrors
+- Now `pkg update` should work
+
+### How to Transfer File Using Netcat
+
+- On phone: `nc -l -p 1234 > output.tar.gz`, where 1234 is the port
+- On pc / sender: `pv input.tar.gz | nc <phone ip address e.g 192.168.0.1> 1234`, you can also use `cat` instead of `pv`
+
 ## Download Termux
 You can download from F-droid: https://f-droid.org/packages/com.termux/
 Termux is no longer available from the Play Store
@@ -7,6 +17,7 @@ Termux is no longer available from the Play Store
 ## Update
 ```sh
 pkg update && pkg upgrade
+pkg autoclean
 ```
 
 ## Setup
