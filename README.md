@@ -1,8 +1,8 @@
 ## How To Transfer File Using Netcat
 
-- On phone: `nc -l -p 1234 > output.zip`, where 1234 is the port
+- On phone: `nc -l -p 1234 > output.zip`  where 1234 is the port
 - Look up your phone's ip address in the settings (make sure both devices are on the same wifi), let's say it's `192.168.0.1`
-- On pc / sender: `pv input.zip | nc 192.168.0.1 1234`, you can also use `cat` instead of `pv`
+- On pc / sender: `pv input.zip | nc 192.168.0.1 1234`  you can also use `cat` instead of `pv`
 
 ## How To Fix Unable To Update
 
