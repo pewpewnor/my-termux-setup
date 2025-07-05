@@ -54,7 +54,7 @@ Sauce: https://wiki.termux.com/wiki/PRoot
 
 ### Common
 ```
-pkg i -y netcat-openbsd socat curl wget grep htop man nano vim zip unzip tar git tree
+pkg i -y netcat-openbsd curl wget grep htop man nano vim zip unzip tar p7zip git tree
 ```
 
 ### Programming languages
